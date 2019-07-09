@@ -29,3 +29,5 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_Login/btn_Login'))
 
+WebUI.click(findTestObject(null))
+
