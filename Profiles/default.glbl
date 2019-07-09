@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://192.168.0.150/uatdncapplication/pages/login.php'</initValue>
+      <name>webURL_Login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mark.barcarse'</initValue>
+      <name>_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mb75&amp;pj8'</initValue>
+      <name>_password</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
