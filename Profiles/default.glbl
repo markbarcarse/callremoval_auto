@@ -19,4 +19,9 @@
       <initValue>'mb75&amp;pj8'</initValue>
       <name>_password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Success! Successfully inserted a DNC record in Genesys Pureconnect database'</initValue>
+      <name>_DNC_success</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

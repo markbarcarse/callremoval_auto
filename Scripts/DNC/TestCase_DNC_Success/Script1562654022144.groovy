@@ -29,5 +29,19 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_Login/btn_Login'))
 
-WebUI.click(findTestObject(null))
+WebUI.waitForPageLoad(5)
+
+WebUI.setText(findTestObject('Page_Form/input_PhoneNumber'), '   0910000005')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Page_Form/btn_DNC'))
+
+WebUI.waitForElementPresent(findTestObject('Page_Form/label_DNC_success'), 5)
+
+WebUI.delay(2)
+
+_successMsg = WebUI.getText(findTestObject('Page_Form/label_DNC_success'))
+
+WebUI.verifyMatch(_successMsg, GlobalVariable._DNC_success, false)
 
