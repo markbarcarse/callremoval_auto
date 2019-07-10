@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Page_Form/btn_CallExclude'))
 
 WebUI.waitForElementPresent(findTestObject('Page_Form/label_Message2'), 30)
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 _successMsg = WebUI.getText(findTestObject('Page_Form/label_Message1'))
 
