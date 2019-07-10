@@ -31,17 +31,17 @@ WebUI.click(findTestObject('Page_Login/btn_Login'))
 
 WebUI.waitForPageLoad(5)
 
-WebUI.setMaskedText(findTestObject('Page_Form/input_PhoneNumber'), '   0910000009')
+WebUI.setMaskedText(findTestObject('Page_Form/input_PhoneNumber'), '   0910000021')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_Form/btn_DNC'))
+WebUI.click(findTestObject('Page_Form/btn_CallExclude'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Form/label_Message1'), 5)
+WebUI.waitForElementPresent(findTestObject('Page_Form/label_Message2'), 30)
 
 WebUI.delay(2)
 
-_successMsg = WebUI.getText(findTestObject('Page_Form/label_Message1'))
+_errorMsg = WebUI.getText(findTestObject('Page_Form/label_Message1'))
 
-WebUI.verifyMatch(_successMsg, GlobalVariable._DNC_success, false)
+WebUI.verifyMatch(_errorMsg, GlobalVariable._CallExclude_error, false)
 

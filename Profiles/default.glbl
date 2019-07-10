@@ -29,4 +29,14 @@
       <initValue>'Error! Number already exists in DNC'</initValue>
       <name>_DNC_error</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Success! Successfully added record to Exclude numbers in Genesys Pureconnect database'</initValue>
+      <name>_CallExclude_success</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Error! Number already excluded'</initValue>
+      <name>_CallExclude_error</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

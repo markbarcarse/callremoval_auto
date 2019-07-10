@@ -37,11 +37,11 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_Form/btn_DNC'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Form/label_DNC_message'), 5)
+WebUI.waitForElementPresent(findTestObject('Page_Form/label_Message1'), 5)
 
 WebUI.delay(2)
 
-_errorMsg = WebUI.getText(findTestObject('Page_Form/label_DNC_message'))
+_errorMsg = WebUI.getText(findTestObject('Page_Form/label_Message1'))
 
 WebUI.verifyMatch(_errorMsg, GlobalVariable._DNC_error, false)
 

@@ -43,11 +43,11 @@ for (def index : (0..data.getRowNumbers() - 1)) {
 
     WebUI.click(findTestObject('Page_Form/btn_DNC'))
 
-    WebUI.waitForElementPresent(findTestObject('Page_Form/label_DNC_message'), 5)
+    WebUI.waitForElementPresent(findTestObject('Page_Form/label_Message1'), 5)
 
     WebUI.delay(2)
 
-    _successMsg = WebUI.getText(findTestObject('Page_Form/label_DNC_message'))
+    _successMsg = WebUI.getText(findTestObject('Page_Form/label_Message1'))
 
     WebUI.verifyMatch(_successMsg, GlobalVariable._DNC_success, false)
 

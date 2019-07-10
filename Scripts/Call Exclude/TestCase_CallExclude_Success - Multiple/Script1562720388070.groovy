@@ -31,17 +31,26 @@ WebUI.click(findTestObject('Page_Login/btn_Login'))
 
 WebUI.waitForPageLoad(5)
 
-WebUI.setMaskedText(findTestObject('Page_Form/input_PhoneNumber'), '   0910000009')
+TestData data = findTestData('TestData_CallExclude_Success' // Testdata file name
+    )
 
-WebUI.delay(1)
+for (def index : (0..data.getRowNumbers() - 1)) {
+    WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Form/btn_DNC'))
+    WebUI.setMaskedText(findTestObject('Page_Form/input_PhoneNumber'), data.internallyGetValue('Number', index))
 
-WebUI.waitForElementPresent(findTestObject('Page_Form/label_Message1'), 5)
+    WebUI.delay(1)
 
-WebUI.delay(2)
+    WebUI.click(findTestObject('Page_Form/btn_CallExclude'))
 
-_successMsg = WebUI.getText(findTestObject('Page_Form/label_Message1'))
+    WebUI.waitForElementPresent(findTestObject('Page_Form/label_Message2'), 30)
 
-WebUI.verifyMatch(_successMsg, GlobalVariable._DNC_success, false)
+    WebUI.delay(2)
+
+    _successMsg = WebUI.getText(findTestObject('Page_Form/label_Message1'))
+
+    WebUI.verifyMatch(_successMsg, GlobalVariable._CallExclude_success, false)
+
+    WebUI.refresh()
+}
 
