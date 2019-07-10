@@ -24,4 +24,9 @@
       <initValue>'Success! Successfully inserted a DNC record in Genesys Pureconnect database'</initValue>
       <name>_DNC_success</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Error! Number already exists in DNC'</initValue>
+      <name>_DNC_error</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

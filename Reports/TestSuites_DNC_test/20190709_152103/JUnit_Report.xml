@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TestSuites_DNC_test" time="27" tests="1" failures="0" errors="0">
+    <testsuite name="TestSuites_DNC_test" tests="1" failures="0" errors="0" time="27" timestamp="2019-07-09 15:21:22" hostname="Mark Bacarse - 192.168.113.9" id="Test Suites/TestSuites_DNC_test">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Automation\\KatalonStudio\\Call Removal\\auto_callremoval\\Reports\\TestSuites_DNC_test\\20190709_152103"/>
+            <property name="logFiles" value="C:\\Automation\\KatalonStudio\\Call Removal\\auto_callremoval\\Reports\\TestSuites_DNC_test\\20190709_152103\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Mark Bacarse - 192.168.113.9"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.1.5.3"/>
+            <property name="browser" value="Chrome 75.0.3770.100"/>
+            <property name="hostAddress" value="192.168.113.9"/>
+            <property name="sessionId" value="b061f06e923e1b78bb3d9ea7700c18a1"/>
+            <property name="seleniumVersion" value="3.7.1"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/DNC/TestCase_DNC_Success" classname="Test Cases/DNC/TestCase_DNC_Success" status="PASSED">
+            <system-out>2019-07-09 15:21:23 - [TEST_CASE][PASSED] - Test Cases/DNC/TestCase_DNC_Success: Test Cases/DNC/TestCase_DNC_Success&#xD;
+&#xD;
+2019-07-09 15:21:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-09 15:21:23 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-07-09 15:21:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-07-09 15:21:26 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-09 15:21:26 - [TEST_STEP][PASSED] - navigateToUrl(webURL_Login): Navigate to 'http://192.168.0.150/uatdncapplication/pages/login.php' successfully&#xD;
+&#xD;
+2019-07-09 15:21:43 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.150/uatdncapplication/pages/login.php' successfully&#xD;
+&#xD;
+2019-07-09 15:21:43 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully&#xD;
+&#xD;
+2019-07-09 15:21:43 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-07-09 15:21:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_Username"), _username): Text 'mark.barcarse' is set on object 'Object Repository/Page_Login/input_Username'&#xD;
+&#xD;
+2019-07-09 15:21:43 - [MESSAGE][PASSED] - Text 'mark.barcarse' is set on object 'Object Repository/Page_Login/input_Username'&#xD;
+&#xD;
+2019-07-09 15:21:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-07-09 15:21:44 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-07-09 15:21:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_Password"), _password): Text 'mb75&amp;pj8' is set on object 'Object Repository/Page_Login/input_Password'&#xD;
+&#xD;
+2019-07-09 15:21:44 - [MESSAGE][PASSED] - Text 'mb75&amp;pj8' is set on object 'Object Repository/Page_Login/input_Password'&#xD;
+&#xD;
+2019-07-09 15:21:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-07-09 15:21:45 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-07-09 15:21:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on&#xD;
+&#xD;
+2019-07-09 15:21:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on&#xD;
+&#xD;
+2019-07-09 15:21:47 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully&#xD;
+&#xD;
+2019-07-09 15:21:47 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-07-09 15:21:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Form/input_PhoneNumber"), "   0910000004"): Text '   0910000004' is set on object 'Object Repository/Page_Form/input_PhoneNumber'&#xD;
+&#xD;
+2019-07-09 15:21:47 - [MESSAGE][PASSED] - Text '   0910000004' is set on object 'Object Repository/Page_Form/input_PhoneNumber'&#xD;
+&#xD;
+2019-07-09 15:21:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-07-09 15:21:48 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-07-09 15:21:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Form/btn_DNC")): Object: 'Object Repository/Page_Form/btn_DNC' is clicked on&#xD;
+&#xD;
+2019-07-09 15:21:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Form/btn_DNC' is clicked on&#xD;
+&#xD;
+2019-07-09 15:21:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Form/label_DNC_success"), 5): Object 'Object Repository/Page_Form/label_DNC_success' is present&#xD;
+&#xD;
+2019-07-09 15:21:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Form/label_DNC_success' is present&#xD;
+&#xD;
+2019-07-09 15:21:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)&#xD;
+&#xD;
+2019-07-09 15:21:50 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-07-09 15:21:50 - [TEST_STEP][PASSED] - _successMsg = getText(findTestObject("Page_Form/label_DNC_success")): Text of object 'Object Repository/Page_Form/label_DNC_success' is: 'Success! Successfully inserted a DNC record in Genesys Pureconnect database'&#xD;
+&#xD;
+2019-07-09 15:21:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Form/label_DNC_success' is: 'Success! Successfully inserted a DNC record in Genesys Pureconnect database'&#xD;
+&#xD;
+2019-07-09 15:21:50 - [TEST_STEP][PASSED] - if (_successMsg == _DNC_success): DNC Success&#xD;
+&#xD;
+2019-07-09 15:21:50 - [TEST_STEP][PASSED] - comment("DNC Success"): DNC Success&#xD;
+&#xD;
+2019-07-09 15:21:50 - [MESSAGE][INFO] - DNC Success</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-09 15:21:22 - [TEST_SUITE][INCOMPLETE] - TestSuites_DNC_test: null</system-out>
+        <system-err>2019-07-09 15:21:22 - [TEST_SUITE][INCOMPLETE] - TestSuites_DNC_test: null</system-err>
+    </testsuite>
+</testsuites>

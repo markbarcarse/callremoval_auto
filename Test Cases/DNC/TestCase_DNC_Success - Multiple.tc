@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TestCase_DNC_Success</name>
+   <name>TestCase_DNC_Success - Multiple</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3c16e1dc-e9df-4e03-92f7-6bbf96c513bc</testCaseGuid>
+   <testCaseGuid>985a0fe8-30ea-4ea7-8c31-7be2743e58e0</testCaseGuid>
 </TestCaseEntity>

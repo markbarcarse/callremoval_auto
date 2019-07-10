@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuites_DNC_test,Chrome 75.0.3770.100,,,2019-07-09 15:21:22,2019-07-09 15:21:50,27.415s,INCOMPLETE
+,,,,,,,
+Test Cases/DNC/TestCase_DNC_Success,Chrome 75.0.3770.100,,,2019-07-09 15:21:23,2019-07-09 15:21:50,27.219s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.100,,,2019-07-09 15:21:23,2019-07-09 15:21:26,2.880s,PASSED
+navigateToUrl(webURL_Login),Chrome 75.0.3770.100,,,2019-07-09 15:21:26,2019-07-09 15:21:43,16.868s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.100,,,2019-07-09 15:21:43,2019-07-09 15:21:43,0.051s,PASSED
+"setText(findTestObject(""Page_Login/input_Username""), _username)",Chrome 75.0.3770.100,,,2019-07-09 15:21:43,2019-07-09 15:21:43,0.140s,PASSED
+delay(1),Chrome 75.0.3770.100,,,2019-07-09 15:21:43,2019-07-09 15:21:44,1.020s,PASSED
+"setText(findTestObject(""Page_Login/input_Password""), _password)",Chrome 75.0.3770.100,,,2019-07-09 15:21:44,2019-07-09 15:21:44,0.131s,PASSED
+delay(1),Chrome 75.0.3770.100,,,2019-07-09 15:21:44,2019-07-09 15:21:45,1.003s,PASSED
+"click(findTestObject(""Page_Login/btn_Login""))",Chrome 75.0.3770.100,,,2019-07-09 15:21:45,2019-07-09 15:21:47,1.547s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.100,,,2019-07-09 15:21:47,2019-07-09 15:21:47,0.011s,PASSED
+"setText(findTestObject(""Page_Form/input_PhoneNumber""), ""   0910000004"")",Chrome 75.0.3770.100,,,2019-07-09 15:21:47,2019-07-09 15:21:47,0.143s,PASSED
+delay(1),Chrome 75.0.3770.100,,,2019-07-09 15:21:47,2019-07-09 15:21:48,1.002s,PASSED
+"click(findTestObject(""Page_Form/btn_DNC""))",Chrome 75.0.3770.100,,,2019-07-09 15:21:48,2019-07-09 15:21:48,0.076s,PASSED
+"waitForElementPresent(findTestObject(""Page_Form/label_DNC_success""), 5)",Chrome 75.0.3770.100,,,2019-07-09 15:21:48,2019-07-09 15:21:48,0.033s,PASSED
+delay(2),Chrome 75.0.3770.100,,,2019-07-09 15:21:48,2019-07-09 15:21:50,2.003s,PASSED
+"_successMsg = getText(findTestObject(""Page_Form/label_DNC_success""))",Chrome 75.0.3770.100,,,2019-07-09 15:21:50,2019-07-09 15:21:50,0.073s,PASSED
+if (_successMsg == _DNC_success),Chrome 75.0.3770.100,,,2019-07-09 15:21:50,2019-07-09 15:21:50,0.003s,PASSED
